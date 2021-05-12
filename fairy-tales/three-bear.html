@@ -1,261 +1,99 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.min.css">
-    <title>Сказки Три медведя</title>
-</head>
-<body>
-
-    
-  <div class="header-too">
-        <nav class="menu">
-            <ul class="menu__list">
-              <li class="menu__list-item">
-                <a href="#" class="menu__list-link">Игры</a>
-              </li>
-              <li class="menu__list-item">
-                <a href="#" class="menu__list-link" >Литература</a>
-              </li>
-            </ul>
-          </nav>
-    
-          <div class="logo">
-             <a href="../index.html">
-               <h1 class="h1">
-                 Помощник воспитателя
-               </h1>
-             </a>
-          </div>
-    
-          <nav class="menu">
-            <ul class="menu__list">
-              <li class="menu__list-item">
-                <a href="#" class="menu__list-link">Литература</a>
-              </li>
-              <li class="menu__list-item">
-                <a href="#" class="menu__list-link">Документация</a>
-              </li>
-            </ul>
-          </nav>
-  
-          <div class="adaptive_menu" onclick="addmenu()">
-            <button class="header_btn">
-              <img class="header_btn--btn" src="../images/menu_burger.svg" alt="btn" height="30px">
-            </button>
-          </div>
-  
-          <div id="myDIV" class="rightside-menu rightside-menu--close">
-            <button class="rightside-menu--close" onclick="removemenu()">
-              <img src="../images/X.png" alt="x" height="26px" width="26px">
-            </button>
-            <div class="rightside-menu__content">
-             <ul class="rightside-menu__list">
-  
-              <div class="rightside-menu__list_one">
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Сказки</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Стихи</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Сказки</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Стихи</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Сказки</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Стихи</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
-              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
-              </div>
-  
-  
-  
-             </ul>
-             
-            </div>
-          </div>
-  </div>
-
-  <div class="container-knigi" id="container">
-    <div class="book-content">
-        <div class="book">
-            <div class="face-front" id="portada" title="Открой меня"></div>
-            <div class="face-back" id="trsf">
-                <h1> 1</h1>
-                <p>Одна девочка ушла из дома в лес. В лесу она заблудилась и стала искать дорогу домой, да не нашла, а пришла в лесу к домику.
-
-                  Дверь была отворена; она посмотрела в дверь, видит: в домике никого нет, и вошла.
-                  
-                  В домике этом жили три медведя. Один медведь был отец, звали его Михайло Иванович. Он был большой и лохматый. Другой была медведица. Она была поменьше, и её звали Настасья Петровна. Третий был маленький медвежонок, и звали его Мишутка. Медведей не было дома, они ушли гулять по лесу.
-                  
-                  В домике было две комнаты. Девочка вошла в первую комнату и увидела на столе три чашки с похлебкой. Первая чашка, очень большая, была Михайлы Ивановича. Вторая чашка, поменьше, была Настасьи Петровны; третья, синенькая чашечка, была Мишуткина. Подле каждой чашки лежала ложка: большая, средняя и маленькая.</p>
-                  <img src="https://deti-online.com/usr/templates/images/tri-medvedya-p1.jpg" height="150px"" alt="">
+<html lang="ru">
+    <head>
+        <title>Читать сказку Маша и медведь онлайн</title>
+        <meta name="description" content="Читайте русскую народную сказку «Маша и медведь». Эту и другие авторские и народные сказки скачивайте или читайте детям онлайн – у нас интересно!">
+        <link href="g.css" rel="stylesheet">
+        <script src="g.js" defer=""></script>
+        <link href="skazki-item.css" rel="stylesheet">
+        <script src="skazki-item.js" defer=""></script>
+    </head>
+    <body cz-shortcut-listen="true" class="">
+        <div class="container">
+            <a class="sr-only" href="#content">Перейти к основному контенту</a>
+            <div class="cf">
+                <div class="row">
+                    <div id="content" class="page-content" role="main">
+                        <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+                        <div class="full-screen-container">
+                            <div class="reader">
+                                <div class="reader-header do-table">
+                                    <div class="pager do-cell">
+                                        Стр
+                                        <span class="pager-suffix">
+                                            аница</span>&nbsp;<span id="current-page">1</span> из 
+                                            <span id="total-pages">4</span>
+                                        </div>
+                                        <div class="font-size do-cell">
+                                            <i id="font-size-minus" class="icon icon-hover disabled">A-</i>
+                                            <i id="font-size-plus" class="icon icon-hover">A+</i>
+                                        </div>
+                                        <div class="do-cell header-btn-wrap">
+                                            <i id="min-max" class="icon icon-hover icon-max"></i>
+                                        </div>
+                                    </div>
+                                    <div id="text" class="fs-s"
+                                    ><div class="text"
+                                    ><p>Жили-были дедушка да бабушка. Была у них внучка Машенька.</p>
+                                    <p>Собрались раз подружки в лес - по грибы да по ягоды. Пришли звать с собой и Машеньку.</p>
+                                    <p>- Дедушка, бабушка, - говорит Машенька, - отпустите меня в лес с подружками!</p>
+                                    <p>Дедушка с бабушкой отвечают:</p>
+                                    <p>- Иди, только смотри от подружек не отставай - не то заблудишься.</p>
+                                    <p>Пришли девушки в лес, стали собирать грибы да ягоды. Вот Машенька - деревце за деревце, кустик за кустик - и ушла далеко-далеко от подружек.</p>
+                                    <p>Стала она аукаться, стала их звать. А подружки не слышат, не отзываются.</p>
+                                    <p>Ходила, ходила Машенька по лесу - совсем заблудилась.</p>
+                                    <p>Пришла она в самую глушь, в самую чащу. Видит-стоит избушка. Постучала Машенька в дверь - не отвечают. Толкнула она дверь, дверь и открылась.</p>
+                                    <p>Вошла Машенька в избушку, села у окна на лавочку.</p>
+                                    <p>Села и думает:</p>
+                                    <p>„Кто же здесь живёт? Почему никого не видно?.." А в той избушке жил большущий медведь. Только его тогда дома не было: он по лесу ходил. Вернулся вечером медведь, увидел Машеньку, обрадовался.</p>
+                                    <p>- Ага, - говорит, - теперь не отпущу тебя! Будешь у меня жить. Будешь печку топить, будешь кашу варить, меня кашей кормить.</p>
+                                    <p>Потужила Маша, погоревала, да ничего не поделаешь. Стала она жить у медведя в избушке.</p>
+                                    <p>Медведь на целый день уйдёт в лес, а Машеньке наказывает никуда без него из избушки не выходить.</p>
+                                    <p>- А если уйдёшь, - говорит, - всё равно поймаю и тогда уж съем!</p>
+                                    <p>Стала Машенька думать, как ей от медведя убежать. Кругом лес, в какую сторону идти - не знает, спросить не у кого...</p>
+                                    <p>Думала она, думала и придумала.</p>
+                                    <p>Приходит раз медведь из лесу, а Машенька и говорит ему:</p>
+                                    <p>- Медведь, медведь, отпусти меня на денёк в деревню: я бабушке да дедушке гостинцев снесу.</p>
+                                    <p>- Нет, - говорит медведь, - ты в лесу заблудишься. Давай гостинцы, я их сам отнесу!</p>
+                                    <p>А Машеньке того и надо!</p>
+                                    <p>Напекла она пирожков, достала большой-пребольшой короб и говорит медведю:</p>
+                                    <p>- Вот, смотри: я в короб положу пирожки, а ты отнеси их дедушке да бабушке. Да помни: короб по дороге не открывай, пирожки не вынимай. Я на дубок влезу, за тобой следить буду!</p>
+                                    <p>- Ладно, - отвечает медведь, - давай короб! Машенька говорит:</p>
+                                    <p>- Выйди на крылечко, посмотри, не идёт ли дождик! Только медведь вышел на крылечко, Машенька сейчас же залезла в короб, а на голову себе блюдо с пирожками поставила.</p>
+                                    <p>Вернулся медведь, видит - короб готов. Взвалил его на спину и пошёл в деревню.</p>
+                                    <p>Идёт медведь между ёлками, бредёт медведь между берёзками, в овражки спускается, на пригорки поднимается. Шёл-шёл, устал и говорит:</p>
+                                    <p>Сяду на пенёк,</p>
+                                    <p>Съем пирожок!</p>
+                                    <p>А Машенька из короба:</p>
+                                    <p>Вижу, вижу!</p>
+                                    <p>Не садись на пенёк,</p>
+                                    <p>Не ешь пирожок!</p>
+                                    <p>Неси бабушке,</p>
+                                    <p>Неси дедушке!</p>
+                                    <p>- Ишь какая глазастая, - говорит медведь, - всё видит! Поднял он короб и пошёл дальше. Шёл-шёл, шёл-шёл, остановился, сел и говорит:</p>
+                                    <p>Сяду на пенёк,</p>
+                                    <p>Съем пирожок!</p>
+                                    <p>А Машенька из короба опять:</p>
+                                    <p>Вижу, вижу!</p>
+                                    <p>Не садись на пенёк,</p><p>Не ешь пирожок!</p><p>Неси бабушке,</p>
+                                    <p>Неси дедушке!</p><p>Удивился медведь:</p><p>- Вот какая хитрая! Высоко сидит, далеко глядит! Встал и пошёл скорее.</p>
+                                    <p>Пришёл в деревню, нашёл дом, где дедушка с бабушкой жили, и давай изо всех сил стучать в ворота:</p>
+                                    <p>- Тук-тук-тук! Отпирайте, открывайте! Я вам от Машеньки гостинцев принёс.</p>
+                                    <p>А собаки почуяли медведя и бросились на него. Со всех дворов бегут, лают.</p>
+                                    <p>Испугался медведь, поставил короб у ворот и пустился в лес без оглядки.</p>
+                                    <p>Вышли тут дедушка да бабушка к воротам. Видят- короб стоит.</p><p>- Что это в коробе? - говорит бабушка.</p>
+                                    <p>А дедушка поднял крышку, смотрит и глазам своим не верит: в коробе Машенька сидит - живёхонька и здоровёхонька.</p>
+                                    <p>Обрадовались дедушка да бабушка. Стали Машеньку обнимать, целовать, умницей называть.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                    !function(e,a){e[a]=e[a]||[],e[a].push([{ownerId:311998,containerId:"ads-center-ya",params:{p1:"cfbzd",p2:"glbx"}},["phone"],{phoneWidth:767,isAutoReloads:!0}]),e[a].push([{ownerId:311998,containerId:"ads-center-ya",params:{p1:"cfgqk",p2:"glhh"}},["tablet"],{tabletWidth:1279,phoneWidth:767,isAutoReloads:!0}]),e[a].push([{ownerId:311998,containerId:"ads-center-ya",params:{p1:"cfbyz",p2:"glbw"}},["desktop"],{tabletWidth:1279,isAutoReloads:!0}])}(window,"adfoxAsyncParamsAdaptive");</script><script>!function(a,o){a[o]=a[o]||[],a[o].push([{ownerId:311998,containerId:"ads-bottom-ya",params:{p1:"cgata",p2:"glbx"}},["phone"],{phoneWidth:767,isAutoReloads:!0}]),a[o].push([{ownerId:311998,containerId:"ads-bottom-ya",params:{p1:"cfgql",p2:"glhh"}},["tablet"],{tabletWidth:1279,phoneWidth:767,isAutoReloads:!0}]),a[o].push([{ownerId:311998,containerId:"ads-bottom-ya",params:{p1:"cfbza",p2:"glbw"}},["desktop"],{tabletWidth:1279,isAutoReloads:!0}])}(window,"adfoxAsyncParamsScroll");
+                    </script>
+                    </div>
                 </div>
-        </div>
-
-        <div class="book">
-            <div class="face-front">
-                <h1> 2</h1>
-                <p>Девочка взяла самую большую ложку и похлебала из самой большой чашки; потом взяла среднюю ложку и похлебала из средней чашки; потом взяла маленькую ложечку и похлебала из синенькой чашечки; и Мишуткина похлебка ей показалась лучше всех.
-
-                  Девочка захотела сесть и видит у стола три стула: один большой - Михайлы Ивановича; другой поменьше - Настасьи Петровны, а третий, маленький, с красненькой подушечкой - Мишуткин. Она полезла на большой стул и упала; потом села на средний стул, на нём было неловко; потом села на маленький стульчик и засмеялась - так было хорошо. Она взяла синенькую чашечку на колени и стала есть. Поела всю похлебку и стала качаться на стуле.</p>
-                  <img src="https://deti-online.com/usr/templates/images/tri-medvedya-p2.jpg" height="200px"" alt="">
-                </div>
-            <div class="face-back">
-                <h1> 3</h1>
-                <p>Стульчик проломился, и она упала на пол. Она встала, подняла стульчик и пошла в другую горницу. Там стояли три кровати: одна большая - Михаилы Иваныча; другая средняя - Настасьи Петровны; третья - Мишенькина. Девочка легла в большую, ей было слишком просторно; легла в среднюю - было слишком высоко; легла в маленькую - кроватка пришлась ей как раз впору, и она заснула.</p>
-                <img src="https://deti-online.com/usr/templates/images/tri-medvedya-p3.jpg" height="350px"" alt="">
-              </div>
-        </div>
-
-        <div class="book">
-            <div class="face-front">
-                <h1> 4</h1>
-                <p>А медведи пришли домой голодные и захотели обедать.
-
-                  Большой медведь взял чашку, взглянул и заревел страшным голосом:
-                  
-                  - Кто хлебал в моей чашке?
-                  
-                  Настасья Петровна посмотрела свою чашку и зарычала не так громко:
-                  
-                  - Кто хлебал в моей чашке?
-                  
-                  А Мишутка увидал свою пустую чашку и запищал тонким голосом:
-                  
-                  - Кто хлебал в моей чашке и всё выхлебал?</p>
-                <img src="https://deti-online.com/usr/templates/images/tri-medvedya-p4.jpg" height="350px"" alt="">
-              </div>
-            <div class="face-back">
-                <h1> 5</h1>
-                <p>Михаило Иванович взглянул на свой стул и зарычал страшным голосом:
-
-                  - Кто сидел на моём стуле и сдвинул его с места?
-                  
-                  Настасья Петровна взглянула на свой стул и зарычала не так громко:
-                  
-                  - Кто сидел на моём стуле и сдвинул его с места?
-                  
-                  Мишутка взглянул на свой сломанный стульчик и пропищал:
-                  
-                  - Кто сидел на моём стуле и сломал его?
-                  
-                  Медведи пришли в другую горницу.
-                  
-                  - Кто ложился на мою постель и смял её? - заревел Михаило Иваныч страшным голосом.
-                  
-                  - Кто ложился на мою постель и смял её? - зарычала Настасья Петровна не так громко.
-                  
-                  А Мишенька подставил скамеечку, полез в свою кроватку и запищал тонким голосом:
-                  
-                  - Кто ложился на мою постель?</p>
-                  <img src="https://deti-online.com/usr/templates/images/tri-medvedya-p5.jpg" height="230px"" alt="">
-                </div>
-        </div>
-
-        <div class="book">
-            <div class="face-front">
-                <h1> 6</h1>
-                <p>И вдруг он увидал девочку и завизжал так, как будто его режут:
-
-                  - Вот она! Держи, держи! Вот она! Ай-я-яй! Держи!
-                  
-                  Он хотел ее укусить.
-                  
-                  Девочка открыла глаза, увидела медведей и бросилась к окну. Оно было открыто, девочка выскочила в окно и убежала. И медведи не догнали ее.</p>
-                </div>
-            <div class="face-back" id="portada-back">
             </div>
         </div>
-    </div>
-</div>
-
-
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__deskr">
-        <h3>«Помощник воспитателя»</h3>
-        </div>
-        <div class="mail">
-        <a href="mailto:info@reshi-pishi.ru">info@reshi-pishi.ru</a>
-        </div>
-    </div>
-</footer>
-
-
-
-<script src="../js/main.js"></script>
-<script>
-  var front = document.querySelector('.face-front');
-var back = document.querySelector('.face-back');
-var flip = document.querySelector('.book-content');
-var uno = document.querySelectorAll('.book');
-var portada = document.querySelectorAll('#portada');
-
-var contZindex = 2;
-var customZindex = 1;
-
-for (var i = 0; i < uno.length; i++) {
-	uno[i].style.zIndex = customZindex;
-	customZindex--;
-
-	uno[i].addEventListener('click', function(e){
-
-		var tgt = e.target;
-		var unoThis = this;
-
-		unoThis.style.zIndex = contZindex;
-		contZindex++;
-
-		if (tgt.getAttribute('class') == 'face-front') {
-			unoThis.style.zIndex = contZindex;
-			contZindex +=20;
-			setTimeout(function(){
-				unoThis.style.transform = 'rotateY(-180deg)';
-			}, 500);
-		}
-		if (tgt.getAttribute("class") == 'face-back') {
-			unoThis.style.zIndex = contZindex;
-			contZindex +=20;
-
-			setTimeout(function(){
-				unoThis.style.transform = 'rotateY(0deg)';
-			}, 500);
-		}
-
-		if (tgt.getAttribute('id') == 'portada') {
-			flip.classList.remove("trnsf-reset");
-			flip.classList.add("trnsf");
-		}
-		if (tgt.getAttribute('id') == 'trsf') {
-			flip.classList.remove("trnsf");
-			flip.classList.add("trnsf-reset");
-		}
-
-	});
-}
-
-
-</script>
-</body>
-</html>
+    </body>
+    </html>
