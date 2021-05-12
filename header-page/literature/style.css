@@ -49,29 +49,29 @@ h2,
 h3 {
   margin-top: 6px;
   margin-bottom: 6px;
-  font-size: 28px;
+  font-size: 31px;
   font-weight: bold;
   letter-spacing: -1px;
   color: #313131;
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 31px;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 28px;
 }
 
 h4 {
   margin-bottom: 12px;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 40px;
   color: rgba(49, 49, 49, 0.7);
 }
 
 p:not(.author) {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 1.4;
 }
@@ -89,7 +89,7 @@ p.author {
 a.button {
   margin-bottom: 0;
   padding: 8px 14px;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   border-radius: 3px;
   background-color: rgba(49, 49, 49, 0.5);
@@ -183,7 +183,7 @@ a.button:hover, a.button:focus {
   height: calc(100% - 1em);
   color: #d2d6d5;
   font-weight: light;
-  font-size: 15px;
+  font-size: 18px;
   text-align: left;
   pointer-events: none;
   -webkit-font-smoothing: antialiased;
@@ -292,7 +292,7 @@ a.button:hover, a.button:focus {
   display: inline-block;
   line-height: 40px;
   vertical-align: middle;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
   color: #313131;
@@ -303,7 +303,7 @@ a.button:hover, a.button:focus {
   display: inline-block;
   padding-right: 10px;
   font-family: "fontawesome";
-  font-size: 18px;
+  font-size:21px;
   font-weight: 400;
   color: rgba(49, 49, 49, 0.45);
   vertical-align: middle;
@@ -350,7 +350,7 @@ a.button:hover, a.button:focus {
   color: rgba(0, 0, 0, 0.4);
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
   font-weight: 300;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 .nav-menu ul {
   margin: 0;
@@ -399,7 +399,7 @@ a.button:hover, a.button:focus {
 .toolbar select {
   margin-bottom: 7px;
   color: #313131;
-  font-size: 14px;
+  font-size: 18px;
   border: none;
   background-color: transparent;
 }
@@ -409,7 +409,7 @@ a.button:hover, a.button:focus {
 .toolbar a.filter-item {
   margin-right: 16px;
   padding-bottom: 18px;
-  font-size: 14px;
+  font-size: 18px;
   color: #313131;
   border-bottom: 0px solid transparent;
   transition: all 250ms ease-out;
@@ -753,7 +753,7 @@ a.button:hover, a.button:focus {
   display: -webkit-box;
   height: 360px;
   /* Fallback for non-webkit */
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.5;
   -webkit-line-clamp: 16;
   -webkit-box-orient: vertical;
@@ -803,10 +803,12 @@ a.button:hover, a.button:focus {
 */
 
 footer {
+  
   background: rgb(181, 151, 182);
   color: rgb(109, 4, 115);
   display: flex;
   justify-content: space-evenly;
+  flex: 0 0 auto;
 }
 
 .footer-forum{
