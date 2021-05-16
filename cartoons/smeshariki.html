@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.min.css">
+    <link rel="stylesheet" href="../poems/poems.css">
+    <link rel="shortcut icon" href="../images/title-icon.svg" type="image/png">
+    <title>Смешарики</title>
+</head>
+<body>
+
+    <div class="header-too" id="header">
+        <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Игры</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link" >Литература</a>
+              </li>
+            </ul>
+          </nav>
+    
+          <div class="logo">
+             <a href="../index.html">
+               <h1 class="h1">
+                 Помощник воспитателя
+               </h1>
+             </a>
+          </div>
+    
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Литература</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Документация</a>
+              </li>
+            </ul>
+          </nav>
+  
+          <div class="adaptive_menu" onclick="addmenu()">
+            <button class="header_btn">
+              <img class="header_btn--btn" src="../images/menu_burger.svg" alt="btn" height="30px">
+            </button>
+          </div>
+  
+          <div id="myDIV" class="rightside-menu rightside-menu--close">
+            <button class="rightside-menu--close" onclick="removemenu()">
+              <img src="../images/X.png" alt="x" height="26px" width="26px">
+            </button>
+            <div class="rightside-menu__content">
+             <ul class="rightside-menu__list">
+  
+              <div class="rightside-menu__list_one">
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Сказки</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Стихи</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Сказки</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Стихи</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Сказки</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Стихи</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              </div>
+  
+  
+  
+             </ul>
+             
+            </div>
+          </div>
+    </div>
+
+<div class="conteiner">
+    <main class="main-caetoons">
+            <div class="cartoon-wrapper">
+                <div class="cartoon-main-logo">
+                    <h2>Смешарики</h2>
+                </div>
+                <div class="cartoon-header">
+                    <div class="cartoon-img-logo-smeshariki">
+                    </div>
+                    <div class="cartoon-info">
+                        <ul class="cartoon-list">
+                            <li class="cartoon-lits-item">
+                                <span>Страна</span>:    Россия 
+                            </li>
+                            <li class="cartoon-lits-item">
+                               <span>Возраст</span>:    3+
+                            </li>
+                            <li class="cartoon-lits-item">
+                                <span>Мультики</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cartoon-deskr">
+                        <p>Выбираете для ребенка добрые мультфильмы о дружбе и взаимопонимании? Порадуйте малыша новыми Смешариками. Герои сериала обязательно понравятся крохе!</p>
+                    </div>
+                </div>
+                <div class="cartoon-content">
+                    <iframe style="max-width: 660px; height: 415px; width: 100%;" src="https://www.youtube.com/embed/videoseries?list=PLN77dVV1fKqsRkYO9Wel9w_xJPCLSZpA3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="cartoon-subdeskr">
+                    <div class="cartoon-subdeskr-header">
+                        <h2 style="border-bottom: 2px solid rgb(108, 25, 123); color: rgb(108, 25, 123);">Веселый мир «Смешариков»</h2>
+                    </div>
+                    <p>Мультик Смешарики повествует о веселых друзьях, которые вместе познают окружающий мир. Каждый эпизод в развлекательной форме раскрывает одну из важных тем: общение, личное развитие, жизненный выбор и так далее. В некоторых сериях поднимаются даже серьезные философские вопросы, поэтому сериал любят не только дети, но и многие взрослые.</p>
+                    <p>Главные герои мультфильма Смешарики обладают разными характерами, но все они миролюбивы и добры. Обитатели Ромашковой долины часто попадают в увлекательные приключения, постоянно учатся чему-то новому. Старшие персонажи неизменно заботятся о детях, а малыши признают авторитет взрослых, но сохраняют независимый характер. Узнать больше о жизни самых юных героев поможет отдельный сборник Малышарики!</p>
+                    <p>К категории взрослых персонажей относятся Совунья, Копатыч, Лосяш, Пин и Кар-Карыч. Они всегда готовы помочь советом и делом малышам: Нюше, Ежику, Крошу, Барашу, Панди. Это делает их настоящей семьей, где каждый может рассчитывать на поддержку окружающих. Атмосфера доброжелательности делает каждого персонажа достойным примером для подражания.</p>
+                    <div class="cartoon-subdeskr-header">
+                        <h2 style="border-bottom: 2px solid rgb(108, 25, 123); color: rgb(108, 25, 123);">Герои и их характеры</h2>
+                    </div>
+                    <p>Поклонники мультсериала любят смотреть Смешарики благодаря выразительным характерам главных героев – ведь в них так легко узнать себя.</p>
+                    
+                    <p><span>Крош</span> – энергичный и веселый зайчишка, для которого нет ничего важнее дружбы. Он обожает приключения и никогда не теряет позитивного настроя.</p>
+                    <p><span>Ежик</span> – настоящий мыслитель, коллекционер и лучший товарищ Кроша. Несмотря на спокойный характер, герой отважно участвует в общих приключениях.</p>
+                    <p><span>Бараш</span> – меланхоличный поэт, который искренне любит искусство и стремится добиться признания. Хотя герой боится высоты, воды и катания с горки, это не мешает ему быть преданным другом.</p>
+                    <p><span>Нюша</span> – романтичная свинка, которая любит подвижные игры, обожает сладости. Но самым любимым ее занятием остаются мечтания о принцах, замках и других нереальных вещах.</p>
+                    <p><span>Панди</span> – приезжая родственница Копатыча, которая прекрасно вписалась в детскую компанию. Она любит есть бамбук, слушать музыку и кататься на скейборде.</p>
+                    <p>Познакомиться поближе с этими и другими персонажами помогут все серии Смешариков. Этот увлекательный мультсериал никого не оставит равнодушным!</p>
+
+                </div>
+            </div>
+    </main>
+</div>
+
+
+    <footer class="footer">
+
+      <div class="footer-logo">
+        <a href="#header">
+          <h2 class="footer-logo-deskr">
+            Помощник воспитателя
+          </h2>
+        </a>
+      </div>
+  
+      <div class="footer_mail">
+        <form action="">
+          <button type="footer-button">Хотите что-то добавить?</button>
+        </form>
+      </div>
+  
+      <div class="footer-forum">
+  
+        <h3 class="footer-forum-deskr">
+          Хотите поделиться опытом?
+        </h3>
+  
+        <div class="footer-forum-img">
+          <a href="https://vk.me/join/AJQ1d1A/phts/HAaR9FaMFjH">
+            <img src="../images/footer/vk_logo_icon.svg" height="50px" alt="" class="footer-forum-img vk">
+          </a>
+          <a href="https://t.me/joinchat/lQOUkladScwwZGI6">
+            <img src="../images/footer/telegram_logo_icon.svg" height="50px" alt="" class="footer-forum-img tg">
+          </a>
+          <a href="https://chat.whatsapp.com/LZrAFEW7D93IpjEYPukmjF">
+            <img src="../images/footer/whatsapp_logo_icon.svg" height="50px" alt="" class="footer-forum-img w">
+          </a>
+        </div>
+  
+      </div>
+  
+    </footer>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous">
+</script>
+<s src="../js/main.js"></s>
+</body>
+</html>

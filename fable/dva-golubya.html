@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.min.css">
+    <link rel="stylesheet" href="../poems/poems.css">
+    <title>Два голубя</title>
+</head>
+<body>
+
+    <div class="header-too" id="header">
+        <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Игры</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link" >Литература</a>
+              </li>
+            </ul>
+          </nav>
+    
+          <div class="logo">
+             <a href="../index.html">
+               <h1 class="h1">
+                 Помощник воспитателя
+               </h1>
+             </a>
+          </div>
+    
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Литература</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Документация</a>
+              </li>
+            </ul>
+          </nav>
+  
+          <div class="adaptive_menu" onclick="addmenu()">
+            <button class="header_btn">
+              <img class="header_btn--btn" src="../images/menu_burger.svg" alt="btn" height="30px">
+            </button>
+          </div>
+  
+          <div id="myDIV" class="rightside-menu rightside-menu--close">
+            <button class="rightside-menu--close" onclick="removemenu()">
+              <img src="../images/X.png" alt="x" height="26px" width="26px">
+            </button>
+            <div class="rightside-menu__content">
+             <ul class="rightside-menu__list">
+  
+              <div class="rightside-menu__list_one">
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Сказки</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Стихи</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Сказки</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Стихи</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Сказки</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Стихи</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              </div>
+  
+  
+  
+             </ul>
+             
+            </div>
+          </div>
+    </div>
+
+<div class="conteiner">
+    <main class="main-poems">
+            <div class="poems-wrapper">
+            <div class="poems-deskr">
+            <div class="poems-main">
+                <h2>Два голубя</h2>
+            </div>
+            <div class="poems-submain">
+                <h4 style=" color: #3c3c3cd2;">Иван Крылов</h4>
+            </div>
+            <div class="poems-audio">
+                <audio controls id="audio">
+                    <source src="../poems/audio/vot-kakoy-rasseyanyy.mp3" type="audio/mp3" >
+                </audio> 
+            </div>
+            <div class="poems-act center">
+                <a href="#" >Скачать</a>
+            </div>
+        </div>
+        <div class="content-poems">
+            <div class="content-poems-one">
+                                
+                <p >Басня Два Голубя читать: </p>
+                <p >  </p><p>Два Голубя как два родные брата жили,</p>
+                <p>Друг без друга они не ели и не пили;</p>
+                <p>Где видишь одного, другой уж, верно, там;</p>
+                <p>И радость и печаль, все было пополам.</p>
+                <p>Не видели они, как время пролетало;</p>
+                <p>Бывало грустно им, а скучно не бывало.</p>
+                <p>Ну, кажется, куда б хотеть</p>
+                <p>Или от милой, иль от друга?</p>
+                <p>Нет, вздумал странствовать один из их - лететь</p>
+                <p>Увидеть, осмотреть</p>
+                <p>Диковинки земного круга,</p>
+                <p>Ложь с истиной сличить, поверить быль с молвой,</p>
+                <p>"Куда ты? - говорит сквозь слез ему другой; -</p>
+                <p>Что пользы по свету таскаться?</p>
+                <p>Иль с другом хочешь ты расстаться?</p>
+                <p>Бессовестный! когда меня тебе не жаль,</p>
+                <p>Так вспомни хищных птиц, силки, грозы ужасны,</p>
+                <p>И все, чем странствия опасны!</p>
+                <p>Хоть подожди весны лететь в такую даль:</p>
+                <p>Уж я тебя тогда удерживать не буду.</p>
+                <p>Теперь еще и корм и скуден так, и мал;</p>
+                <p>Да, чу! и ворон прокричал:</p>
+                <p>Ведь это, верно, к худу.</p>
+                <p>Останься дома, милый мой,</p>
+                <p>Ну, нам ведь весело с тобой!</p>
+                <p>Куда ж еще тебе лететь, не разумею;</p>
+                <p>А я так без тебя совсем осиротею.</p>
+                <p>Силки, да коршуны, да громы только мне</p>
+                <p>Казаться будут и во сне;</p>
+                <p>Все стану над тобой бояться я несчастья:</p>
+                <p>Чуть тучка лишь над головой,</p>
+                <p>Я буду говорить: ах! где-то братец мой?</p>
+                <p>Здоров ли, сыт ли он, укрыт ли от ненастья!"</p>
+                <p>Растрогала речь эта Голубка;</p>
+                <p>Жаль братца, да лететь охота велика:</p>
+                <p>Она и рассуждать и чувствовать мешает.</p>
+                <p>"Не плачь, мой милый, - так он друга утешает, -</p>
+                <p>Я на три дня с тобой, не больше, разлучусь.</p>
+                <p>Все наскоро в пути замечу на полете,</p>
+                <p>И, осмотрев, что есть диковинней на свете,</p>
+                <p>Под крылышко к дружку назад я ворочусь.</p>
+                <p>Тогда-то будет нам о чем повесть словечко!</p>
+                <p>Я вспомню каждый час и каждое местечко;</p>
+                <p>Все расскажу: дела ль, обычай ли какой,</p>
+                <p>Иль где какое видел диво.</p>
+                <p>Ты, слушая меня, представишь все так живо,</p>
+                <p>Как будто б сам летал ты по свету со мной".</p>
+                <p>Тут - делать нечего - друзья поцеловались,</p>
+                <p>Простились и расстались.</p>
+                <p>Вот странник наш летит; вдруг встречу дождь и гром;</p>
+                <p>Под ним, как океан, синеет степь кругом.</p>
+                <p>Где деться? К счастью, дуб сухой в глаза попался;</p>
+                <p>Кой-как угнездился, прижался</p>
+                <p>К нему наш Голубок;</p>
+                <p>Но ни от ветру он укрыться тут не мог,</p>
+                <p>Ни от дождя спастись: весь вымок и продрог.</p>
+                <p>Утих помалу гром. Чуть солнце просияло,</p>
+                <p>Желанье позывать бедняжку дале стало.</p>
+                <p>Встряхнулся и летит, - летит и видит он:</p>
+                <p>В заглушьи под леском рассыпана пшеничка.</p>
+                <p>Спустился - в сети тут попалась наша птичка!</p>
+                <p>Беды со всех сторон!</p>
+                <p>Трепещется он, рвется, бьется;</p>
+                <p>По счастью, сеть стара: кой-как ее прорвал,</p>
+                <p>Лишь ножку вывихнул да крылышко помял!</p>
+                <p>Но не до них: он прочь без памяти несется.</p>
+                <p>Вот пуще той беды беда над головой!</p>
+                <p>Отколь ни взялся ястреб злой;</p>
+                <p>Невзвидел света Голубь мой!</p>
+                <p>От ястреба из сил последних машет.</p>
+                <p>Ах, силы вкоротке! совсем истощены!</p>
+                <p>Уж когти хищные над ним распущены;</p>
+                <p>Уж холодом в него с широких крыльев пашет.</p>
+                <p>Тогда орел, с небес направя свой полет,</p>
+                <p>Ударил в ястреба всей силой -</p>
+                <p>И хищник хищнику достался на обед.</p>
+                <p>Меж тем наш Голубь милой,</p>
+                <p>Вниз камнем ринувшись, прижался под плетнем.</p>
+                <p>Но тем еще не кончилось на нем:</p>
+                <p>Одна беда всегда другую накликает.</p>
+                <p>Ребенок, черепком наметя в Голубка, -</p>
+                <p>Сей возраст жалости не знает, -</p>
+                <p>Швырнул и раскроил висок у бедняка.</p>
+                <p>Тогда-то странник наш, с разбитой головою,</p>
+                <p>С попорченным крылом, с повихнутой ногою,</p>
+                <p>Кляня охоту видеть свет,</p>
+                <p>Поплелся кое-как домой без новых бед.</p>
+                <p>Счастлив еще: его там дружба ожидает!</p>
+                <p>К отраде он своей,</p>
+                <p>Услуги, лекаря и помощь видит в ней;</p>
+                <p>С ней скоро все беды и горе забывает.</p>
+                <p>О вы, которые объехать свет вокруг</p>
+                <p>Желанием горите!</p>
+                <p>Вы эту басенку прочтите,</p>
+                <p>И в дальний путь такой пускайтеся не вдруг.</p>
+                <p>Что б ни сулило вам воображенье ваше;</p>
+                <p>Но, верьте, той земли не сыщете вы краше,</p>
+                <p>Где ваша милая, иль где живет ваш друг.</p><br>
+
+            </div>
+
+            </div>
+            </div>
+            
+    </main>
+</div>
+
+
+    <footer class="footer">
+
+      <div class="footer-logo">
+        <a href="#header">
+          <h2 class="footer-logo-deskr">
+            Помощник воспитателя
+          </h2>
+        </a>
+      </div>
+  
+      <div class="footer_mail">
+        <form action="">
+          <button type="footer-button">Хотите что-то добавить?</button>
+        </form>
+      </div>
+  
+      <div class="footer-forum">
+  
+        <h3 class="footer-forum-deskr">
+          Хотите поделиться опытом?
+        </h3>
+  
+        <div class="footer-forum-img">
+          <a href="https://vk.me/join/AJQ1d1A/phts/HAaR9FaMFjH">
+            <img src="../images/footer/vk_logo_icon.svg" height="50px" alt="" class="footer-forum-img vk">
+          </a>
+          <a href="https://t.me/joinchat/lQOUkladScwwZGI6">
+            <img src="../images/footer/telegram_logo_icon.svg" height="50px" alt="" class="footer-forum-img tg">
+          </a>
+          <a href="https://chat.whatsapp.com/LZrAFEW7D93IpjEYPukmjF">
+            <img src="../images/footer/whatsapp_logo_icon.svg" height="50px" alt="" class="footer-forum-img w">
+          </a>
+        </div>
+  
+      </div>
+  
+    </footer>
+    <s
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous">
+</s>
+<s src="../js/main.js"></s>
+</body>
+</html>
