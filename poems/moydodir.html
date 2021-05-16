@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.min.css">
+    <link rel="stylesheet" href="poems.css">
+    <title>Вот такой рассеянный</title>
+</head>
+<body>
+
+    <div class="header-too" id="header">
+        <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Игры</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link" >Литература</a>
+              </li>
+            </ul>
+          </nav>
+    
+          <div class="logo">
+             <a href="../index.html">
+               <h1 class="h1">
+                 Помощник воспитателя
+               </h1>
+             </a>
+          </div>
+    
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Литература</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Документация</a>
+              </li>
+            </ul>
+          </nav>
+  
+          <div class="adaptive_menu" onclick="addmenu()">
+            <button class="header_btn">
+              <img class="header_btn--btn" src="../images/menu_burger.svg" alt="btn" height="30px">
+            </button>
+          </div>
+  
+          <div id="myDIV" class="rightside-menu rightside-menu--close">
+            <button class="rightside-menu--close" onclick="removemenu()">
+              <img src="../images/X.png" alt="x" height="26px" width="26px">
+            </button>
+            <div class="rightside-menu__content">
+             <ul class="rightside-menu__list">
+  
+              <div class="rightside-menu__list_one">
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Сказки</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Стихи</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Сказки</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Стихи</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Сказки</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Стихи</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              </div>
+  
+  
+  
+             </ul>
+             
+            </div>
+          </div>
+    </div>
+
+<div class="conteiner">
+    <main class="main-poems">
+            <div class="poems-wrapper">
+              <div class="poems-deskr">
+                <div class="poems-main">
+                    <h2>Мойдодыр</h2>
+                </div>
+                <div class="poems-submain">
+                    <h4 style=" color: #3c3c3cd2;">Корней Чуковский</h4>
+                </div>
+                <div class="poems-audio">
+                  <audio controls id="audio">
+                      <source src="../poems/audio/vot-kakoy-rasseyanyy.mp3" type="audio/mp3" >
+                  </audio> 
+              </div>
+                <div class="poems-act center">
+                    <a href="#" >Скачать</a>
+                </div>
+            </div>
+            <div class="content-poems">
+              <div class="content-poems-one">
+               <div class="content-columns_block">
+                   <p style="font-size: 20px; font-weight: 700px; border-bottom: 2px solid #000; text-align: center;">1</p>
+                   <p>Одеяло<br>Убежало,<br>Улетела простыня,<br>И&nbsp;подушка,<br>Как лягушка,<br>Ускакала от&nbsp;меня.</p>
+                <p>Я&nbsp;за&nbsp;свечку,<br>Свечка&nbsp;— в&nbsp;печку!<br>Я&nbsp;за&nbsp;книжку,<br>Та&nbsp;— бежать<br>И&nbsp;вприпрыжку<br>Под кровать!</p>
+                <p>Я&nbsp;хочу напиться чаю,<br>К&nbsp;самовару подбегаю,<br>Но&nbsp;пузатый от&nbsp;меня<br>Убежал, как от&nbsp;огня.</p><p>Что такое?<br>Что случилось?<br>Отчего же<br>Всё кругом<br>Завертелось,<br>Закружилось
+                    <br>И&nbsp;помчалось колесом?</p><p>Утюги за&nbsp;сапогами,<br>Сапоги за&nbsp;пирогами,<br>Пироги за&nbsp;утюгами,<br>Кочерга за&nbsp;кушаком —<br>Всё вертится,<br>И&nbsp;кружится,<br>И&nbsp;несётся кувырком.</p>
+                    <p>Вдруг из&nbsp;маминой из&nbsp;спальни,<br>Кривоногий и&nbsp;хромой,<br>Выбегает умывальник<br>И&nbsp;качает головой:</p>
+                    <p>«Ах&nbsp;ты, гадкий, ах&nbsp;ты, грязный,<br>Неумытый поросёнок!<br>Ты&nbsp;чернее трубочиста,<br>Полюбуйся на&nbsp;себя:<br>У&nbsp;тебя на&nbsp;шее вакса,<br>У&nbsp;тебя под носом клякса,<br>
+                    У&nbsp;тебя такие руки,<br>Что сбежали даже брюки,<br>Даже брюки, даже брюки<br>Убежали от&nbsp;тебя.</p><p>Рано утром на&nbsp;рассвете<br>Умываются мышата,<br>И&nbsp;котята, и&nbsp;утята,
+                    <br>И&nbsp;жучки, и&nbsp;паучки.</p><p>Ты&nbsp;один не&nbsp;умывался<br>И&nbsp;грязнулею остался,<br>И&nbsp;сбежали от&nbsp;грязнули<br>И&nbsp;чулки и&nbsp;башмаки.</p>
+                    <p>Я&nbsp;— Великий Умывальник,<br>Знаменитый Мойдодыр,<br>Умывальников Начальник<br>И&nbsp;мочалок Командир!</p><p>Если топну я&nbsp;ногою,<br>Позову моих солдат,<br>В&nbsp;эту комнату толпою
+                    <br>Умывальники влетят,<br>И&nbsp;залают, и&nbsp;завоют,<br>И&nbsp;ногами застучат,<br>И&nbsp;тебе головомойку,<br>Неумытому, дадут —<br>Прямо в&nbsp;Мойку,<br>Прямо в&nbsp;Мойку
+                    <br>С&nbsp;головою окунут!»</p><p>Он&nbsp;ударил в&nbsp;медный таз<br>И&nbsp;вскричал: «Кара-барас!»</p><p>И&nbsp;сейчас&nbsp;же щетки, щетки<br>Затрещали, как трещотки,
+                    <br>И&nbsp;давай меня тереть,<br>Приговаривать:</p>
+                    <p>«Моем, моем трубочиста<br>Чисто, чисто, чисто, чисто!<br>Будет, будет трубочист<br>Чист, чист, чист, чист!»</p>
+            </div>
+                  
+              </div>
+              <div class="content-poems-too">
+                    <p style="font-size: 20px; font-weight: 700px; border-bottom: 2px solid #000; text-align: center;">2</p>
+                    <p>Тут и&nbsp;мыло подскочило<br>И&nbsp;вцепилось в&nbsp;волоса,<br>И&nbsp;юлило, и&nbsp;мылило,<br>И&nbsp;кусало, как&nbsp;оса.</p><p>А&nbsp;от&nbsp;бешеной мочалки
+                    <br>Я&nbsp;помчался, как от&nbsp;палки,<br>А&nbsp;она за&nbsp;мной, за&nbsp;мной<br>По&nbsp;Садовой, по&nbsp;Сенной.</p><p>Я&nbsp;к&nbsp;Таврическому саду,<br>Перепрыгнул чрез ограду,
+                    <br>А&nbsp;она за&nbsp;мною мчится<br>И&nbsp;кусает, как волчица.</p><p>Вдруг навстречу мой хороший,<br>Мой любимый Крокодил.<br>Он&nbsp;с&nbsp;Тотошей и&nbsp;Кокошей
+                    <br>По&nbsp;аллее проходил</p><p>И&nbsp;мочалку, словно галку,<br>Словно галку, проглотил.</p><p>А&nbsp;потом как зарычит<br>На&nbsp;меня,<br>Как ногами застучит
+                    <br>На&nbsp;меня:<br>«Уходи-ка ты&nbsp;домой,<br>Говорит,<br>Да&nbsp;лицо своё умой,<br>Говорит,<br>А&nbsp;не&nbsp;то&nbsp;как налечу,<br>Говорит,<br>Растопчу и&nbsp;проглочу!»<br>Говорит.</p><p>Как пустился я&nbsp;по&nbsp;улице<br>бежать,<br>Прибежал я&nbsp;к&nbsp;умывальнику<br>опять.</p><p>Мылом, мылом<br>Мылом, мылом<br>Умывался без конца,<br>Смыл и&nbsp;ваксу<br>И&nbsp;чернила<br>С&nbsp;неумытого лица.</p><p>И&nbsp;сейчас&nbsp;же брюки, брюки<br>Так и&nbsp;прыгнули мне в&nbsp;руки.</p><p>А&nbsp;за&nbsp;ними пирожок:<br>«Ну-ка, съешь меня, дружок!»</p><p>А&nbsp;за&nbsp;ним и&nbsp;бутерброд:<br>Подскочил&nbsp;— и&nbsp;прямо в&nbsp;рот!</p><p>Вот и&nbsp;книжка воротилась,<br>Воротилася тетрадь,<br>И&nbsp;грамматика пустилась<br>С&nbsp;арифметикой плясать.</p><p>Тут Великий Умывальник,<br>Знаменитый Мойдодыр,<br>Умывальников Начальник<br>И&nbsp;мочалок Командир,<br>Подбежал ко&nbsp;мне, танцуя,<br>И, целуя, говорил:</p><p>«Вот теперь тебя люблю я,<br>Вот теперь тебя хвалю я!<br>Наконец-то ты, грязнуля,<br>Мойдодыру угодил!»</p><p>Надо, надо умываться<br>По&nbsp;утрам и&nbsp;вечерам,</p><p>А&nbsp;нечистым<br>Трубочистам —<br>Стыд и&nbsp;срам!<br>Стыд и&nbsp;срам!</p><p>Да&nbsp;здравствует мыло душистое,<br>И&nbsp;полотенце пушистое,<br>И&nbsp;зубной порошок,<br>И&nbsp;густой гребешок!</p><p>Давайте&nbsp;же мыться, плескаться,<br>Купаться, нырять, кувыркаться<br>В&nbsp;ушате, в&nbsp;корыте, в&nbsp;лохани,<br>В&nbsp;реке, в&nbsp;ручейке, в&nbsp;океане, —</p><p>И&nbsp;в&nbsp;ванне, и&nbsp;в&nbsp;бане,<br>Всегда и&nbsp;везде —<br>Вечная слава воде!</p>
+              </div>
+            </div>
+            </div>
+            
+    </main>
+</div>
+
+
+    <footer class="footer">
+
+      <div class="footer-logo">
+        <a href="#header">
+          <h2 class="footer-logo-deskr">
+            Помощник воспитателя
+          </h2>
+        </a>
+      </div>
+  
+      <div class="footer_mail">
+        <form action="">
+          <button type="footer-button">Хотите что-то добавить?</button>
+        </form>
+      </div>
+  
+      <div class="footer-forum">
+  
+        <h3 class="footer-forum-deskr">
+          Хотите поделиться опытом?
+        </h3>
+  
+        <div class="footer-forum-img">
+          <a href="https://vk.me/join/AJQ1d1A/phts/HAaR9FaMFjH">
+            <img src="../images/footer/vk_logo_icon.svg" height="50px" alt="" class="footer-forum-img vk">
+          </a>
+          <a href="https://t.me/joinchat/lQOUkladScwwZGI6">
+            <img src="../images/footer/telegram_logo_icon.svg" height="50px" alt="" class="footer-forum-img tg">
+          </a>
+          <a href="https://chat.whatsapp.com/LZrAFEW7D93IpjEYPukmjF">
+            <img src="../images/footer/whatsapp_logo_icon.svg" height="50px" alt="" class="footer-forum-img w">
+          </a>
+        </div>
+  
+      </div>
+  
+    </footer>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous">
+</script>
+<script src="../js/main.js"></script>
+</body>
+</html>

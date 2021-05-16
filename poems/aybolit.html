@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.min.css">
+    <link rel="stylesheet" href="poems.css">
+    <title>Айболит</title>
+</head>
+<body>
+
+    <div class="header-too" id="header">
+        <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Игры</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link" >Литература</a>
+              </li>
+            </ul>
+          </nav>
+    
+          <div class="logo">
+             <a href="../index.html">
+               <h1 class="h1">
+                 Помощник воспитателя
+               </h1>
+             </a>
+          </div>
+    
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Литература</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Документация</a>
+              </li>
+            </ul>
+          </nav>
+  
+          <div class="adaptive_menu" onclick="addmenu()">
+            <button class="header_btn">
+              <img class="header_btn--btn" src="../images/menu_burger.svg" alt="btn" height="30px">
+            </button>
+          </div>
+  
+          <div id="myDIV" class="rightside-menu rightside-menu--close">
+            <button class="rightside-menu--close" onclick="removemenu()">
+              <img src="../images/X.png" alt="x" height="26px" width="26px">
+            </button>
+            <div class="rightside-menu__content">
+             <ul class="rightside-menu__list">
+  
+              <div class="rightside-menu__list_one">
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Сказки</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Стихи</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Сказки</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Стихи</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Сказки</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Стихи</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              </div>
+  
+  
+  
+             </ul>
+             
+            </div>
+          </div>
+    </div>
+
+<div class="conteiner">
+    <main class="main-poems">
+            <div class="poems-wrapper">
+              <div class="poems-deskr">
+                <div class="poems-main">
+                    <h2>Айболит</h2>
+                </div>
+                <div class="poems-submain">
+                    <h4 style=" color: #3c3c3cd2;">Корней Чуковский</h4>
+                </div>
+                <div class="poems-audio">
+                  <audio controls id="audio">
+                      <source src="../poems/audio/vot-kakoy-rasseyanyy.mp3" type="audio/mp3" >
+                  </audio> 
+              </div>
+                <div class="poems-act center">
+                    <a href="#" >Скачать</a>
+                </div>
+            </div>
+            <div class="content-poems">
+              <div class="content-poems-one">
+                   <p>Добрый доктор Айболит!<br>Он&nbsp;под деревом сидит.<br>Приходи к&nbsp;нему лечиться<br>И&nbsp;корова, и&nbsp;волчица,
+                    <br>И&nbsp;жучок, и&nbsp;червячок,<br>И&nbsp;медведица!</p><p>Всех излечит, исцелит<br>Добрый доктор Айболит!</p>
+                    <p>И&nbsp;пришла к&nbsp;Айболиту лиса:<br>«Ой, меня укусила оса!»</p><p>И&nbsp;пришёл к&nbsp;Айболиту барбос:<br>«Меня курица клюнула в&nbsp;нос!»</p>
+                    <p>И&nbsp;прибежала зайчиха<br>И&nbsp;закричала: «Ай, ай!<br>Мой зайчик попал под трамвай!<br>Мой зайчик, мой мальчик<br>Попал под трамвай!<br>Он&nbsp;бежал по&nbsp;дорожке,<br>И&nbsp;ему перерезало ножки,
+                    <br>И&nbsp;теперь он&nbsp;больной и&nbsp;хромой,<br>Маленький заинька мой!»</p><p>И&nbsp;сказал Айболит: «Не&nbsp;беда!<br>Подавай-ка его сюда!<br>Я&nbsp;пришью ему новые ножки,
+                    <br>Он&nbsp;опять побежит, но&nbsp;дорожке».<br>И&nbsp;принесли к&nbsp;нему зайку,<br>Такого больного, хромого,<br>И&nbsp;доктор пришил ему ножки,<br>И&nbsp;заинька прыгает снова.
+                    <br>А&nbsp;с&nbsp;ним и&nbsp;зайчиха-мать<br>Тоже пошла танцевать,<br>И&nbsp;смеётся она и&nbsp;кричит:<br>«Ну, спасибо тебе. Айболит!»</p><p>Вдруг откуда-то шакал<br>На&nbsp;кобыле прискакал:
+                    <br>«Вот вам телеграмма<br>От&nbsp;Гиппопотама!»</p><p>«Приезжайте, доктор,<br>В&nbsp;Африку скорей<br>И&nbsp;спасите, доктор,<br>Наших малышей!»</p><p>«Что такое? Неужели<br>Ваши дети заболели?»</p>
+                    <p>«Да-да-да! У&nbsp;них ангина,<br>Скарлатина, холерина,<br>Дифтерит, аппендицит,<br>Малярия и&nbsp;бронхит!<br>Приходите&nbsp;же скорее,<br>Добрый доктор Айболит!»</p><p>«Ладно, ладно, побегу,
+                    <br>Вашим детям помогу.<br>Только где&nbsp;же вы&nbsp;живёте?<br>На&nbsp;горе или в&nbsp;болоте?»</p><p>«Мы&nbsp;живём на&nbsp;Занзибаре,<br>В&nbsp;Калахари и&nbsp;Сахаре,
+                    <br>На&nbsp;горе Фернандо-По,<br>Где гуляет Гиппо-по<br>По&nbsp;широкой Лимпопо».</p><p>И&nbsp;встал Айболит, побежал Айболит.
+                    <br>По&nbsp;полям, но&nbsp;лесам, по&nbsp;лугам он&nbsp;бежит.<br>И&nbsp;одно только слово твердит Айболит:<br>«Лимпопо, Лимпопо, Лимпопо!»</p>
+                    <p>А&nbsp;в&nbsp;лицо ему ветер, и&nbsp;снег, и&nbsp;град:<br>«Эй, Айболит, воротися назад!»<br>И&nbsp;упал Айболит и&nbsp;лежит на&nbsp;снегу:
+                    <br>«Я&nbsp;дальше идти не&nbsp;могу».</p><p>И&nbsp;сейчас&nbsp;же к&nbsp;нему из-за ёлки<br>Выбегают мохнатые волки:<br>«Садись, Айболит, верхом,
+                    <br>Мы&nbsp;живо тебя довезём!»</p><p>И&nbsp;вперёд поскакал Айболит<br>И&nbsp;одно только слово твердит:<br>«Лимпопо, Лимпопо, Лимпопо!»</p>
+                    <p>Но&nbsp;вот перед ними море —<br>Бушует, шумит на&nbsp;просторе.<br>А&nbsp;в&nbsp;море высокая ходит волна.<br>Сейчас Айболита проглотит&nbsp;она.</p>
+                    <p>«О, если я&nbsp;утону,<br>Если пойду я&nbsp;ко&nbsp;дну,<br>Что станется с&nbsp;ними, с&nbsp;больными,<br>С&nbsp;моими зверями лесными?»<br>Но&nbsp;тут выплывает кит:
+                    <br>«Садись на&nbsp;меня, Айболит,<br>И, как большой пароход,<br>Тебя повезу я&nbsp;вперёд!»</p>
+                    <p>И&nbsp;сел на&nbsp;кита Айболит<br>И&nbsp;одно только слово твердит:<br>«Лимпопо, Лимпопо, Лимпопо!»</p>
+                    <p>И&nbsp;горы встают перед ним на&nbsp;пути,<br>И&nbsp;он&nbsp;по&nbsp;горам начинает ползти,<br>А&nbsp;горы всё выше, а&nbsp;горы всё круче,
+                    <br>А&nbsp;горы уходят под самые тучи!</p>
+                    <p>«О, если я&nbsp;не&nbsp;дойду,<br>Если в&nbsp;пути пропаду,<br>Что станется с&nbsp;ними, с&nbsp;больными,
+                    <br>С&nbsp;моими зверями лесными?»<br>И&nbsp;сейчас&nbsp;же с&nbsp;высокой скалы<br>К&nbsp;Айболиту слетели орлы:<br>«Садись, Айболит, верхом,<br>Мы&nbsp;живо тебя довезём!»</p>
+                  
+              </div>
+              <div class="content-poems-too">
+                
+               
+                <p>И&nbsp;сел на&nbsp;орла Айболит<br>И&nbsp;одно только слово твердит:<br>«Лимпопо, Лимпопо, Лимпопо!»</p><p>А&nbsp;в&nbsp;Африке,<br>А&nbsp;в&nbsp;Африке,<br>На&nbsp;чёрной<br>Лимпопо,<br>Сидит и&nbsp;плачет
+                <br>В&nbsp;Африке<br>Печальный Гиппопо.</p><p>Он&nbsp;в&nbsp;Африке, он&nbsp;в&nbsp;Африке<br>Под пальмою сидит<br>И&nbsp;на&nbsp;море из&nbsp;Африки<br>Без отдыха глядит:<br>Не&nbsp;едет&nbsp;ли в&nbsp;кораблике
+                <br>Доктор Айболит?</p><p>И&nbsp;рыщут по&nbsp;дороге<br>Слоны и&nbsp;носороги<br>И&nbsp;говорят сердито:<br>«Что&nbsp;ж нету Айболита?»</p><p>А&nbsp;рядом бегемотики<br>Схватились за&nbsp;животики:
+                <br>У&nbsp;них, у&nbsp;бегемотиков,<br>Животики болят.</p><p>И&nbsp;тут&nbsp;же страусята<br>Визжат, как поросята.<br>Ах, жалко, жалко, жалко<br>Бедных страусят!</p>
+                <p>И&nbsp;корь, и&nbsp;дифтерит у&nbsp;них,<br>И&nbsp;оспа, и&nbsp;бронхит у&nbsp;них,<br>И&nbsp;голова болит у&nbsp;них,<br>И&nbsp;горлышко болит.</p>
+                <p>Они лежат и&nbsp;бредят:<br>«Ну&nbsp;что&nbsp;же он&nbsp;не&nbsp;едет,<br>Ну&nbsp;что&nbsp;же он&nbsp;не&nbsp;едет,<br>Доктор Айболит?»</p>
+                <p>А&nbsp;рядом прикорнула<br>Зубастая акула,<br>Зубастая акула<br>На&nbsp;солнышке лежит.</p><p>Ах, у&nbsp;её&nbsp;малюток,<br>У&nbsp;бедных акулят,<br>Уже двенадцать суток<br>Зубки болят!</p>
+                <p>И&nbsp;вывихнуто плечико<br>У&nbsp;бедного кузнечика;<br>Не&nbsp;прыгает, не&nbsp;скачет он,<br>А&nbsp;горько-горько плачет он<br>И&nbsp;доктора зовёт:<br>«О, где&nbsp;же добрый доктор?
+                <br>Когда&nbsp;же он&nbsp;придёт?»</p><p>Но&nbsp;вот, поглядите, какая-то птица<br>Всё ближе и&nbsp;ближе по&nbsp;воздуху мчится.<br>На&nbsp;птице, глядите, сидит Айболит
+                <br>И&nbsp;шляпою машет и&nbsp;громко кричит:<br>«Да&nbsp;здравствует милая Африка!»</p><p>И&nbsp;рада и&nbsp;счастлива вся детвора:<br>«Приехал, приехал! Ура! Ура!»</p>
+                <p>А&nbsp;птица над ними кружится,<br>А&nbsp;птица на&nbsp;землю садится.<br>И&nbsp;бежит Айболит к&nbsp;бегемотикам,<br>И&nbsp;хлопает их&nbsp;по&nbsp;животикам,<br>И&nbsp;всем по&nbsp;порядку
+                <br>Даёт шоколадку,<br>И&nbsp;ставит и&nbsp;ставит им&nbsp;градусники!</p><p>И&nbsp;к&nbsp;полосатым<br>Бежит он&nbsp;тигрятам.<br>И&nbsp;к&nbsp;бедным горбатым<br>Больным верблюжатам,
+                <br>И&nbsp;каждого гоголем,<br>Каждого моголем,<br>Гоголем-моголем,<br>Гоголем-моголем,<br>Гоголем-моголем потчует.</p><p>Десять ночей Айболит<br>Не&nbsp;ест, не&nbsp;пьёт и&nbsp;не&nbsp;спит,
+                <br>Десять ночей подряд<br>Он&nbsp;лечит несчастных зверят<br>И&nbsp;ставит и&nbsp;ставит им&nbsp;градусники.</p><p>Вот и&nbsp;вылечил он&nbsp;их,<br>Лимпопо!<br>Вот и&nbsp;вылечил больных.
+                <br>Лимпопо!<br>И&nbsp;пошли они смеяться,<br>Лимпопо!<br>И&nbsp;плясать и&nbsp;баловаться,<br>Лимпопо!</p><p>И&nbsp;акула Каракула<br>Правым глазом подмигнула
+                <br>И&nbsp;хохочет, и&nbsp;хохочет,<br>Будто кто её&nbsp;щекочет.</p><p>А&nbsp;малютки бегемотики<br>Ухватились за&nbsp;животики<br>И&nbsp;смеются, заливаются —
+                <br>Так что дубы сотрясаются.</p>
+                <p>Вот и&nbsp;Гиппо, вот и&nbsp;Попо,<br>Гиппо-попо, Гиппо-попо!<br>Вот идёт Гиппопотам.<br>Он&nbsp;идёт от&nbsp;Занзибара.
+                <br>Он&nbsp;идёт к&nbsp;Килиманджаро —<br>И&nbsp;кричит он, и&nbsp;поёт он:<br>«Слава, слава Айболиту!<br>Слава добрым докторам!»</p>
+              </div>
+            </div>
+            </div>
+            
+    </main>
+</div>
+
+
+    <footer class="footer">
+
+      <div class="footer-logo">
+        <a href="#header">
+          <h2 class="footer-logo-deskr">
+            Помощник воспитателя
+          </h2>
+        </a>
+      </div>
+  
+      <div class="footer_mail">
+        <form action="">
+          <button type="footer-button">Хотите что-то добавить?</button>
+        </form>
+      </div>
+  
+      <div class="footer-forum">
+  
+        <h3 class="footer-forum-deskr">
+          Хотите поделиться опытом?
+        </h3>
+  
+        <div class="footer-forum-img">
+          <a href="https://vk.me/join/AJQ1d1A/phts/HAaR9FaMFjH">
+            <img src="../images/footer/vk_logo_icon.svg" height="50px" alt="" class="footer-forum-img vk">
+          </a>
+          <a href="https://t.me/joinchat/lQOUkladScwwZGI6">
+            <img src="../images/footer/telegram_logo_icon.svg" height="50px" alt="" class="footer-forum-img tg">
+          </a>
+          <a href="https://chat.whatsapp.com/LZrAFEW7D93IpjEYPukmjF">
+            <img src="../images/footer/whatsapp_logo_icon.svg" height="50px" alt="" class="footer-forum-img w">
+          </a>
+        </div>
+  
+      </div>
+  
+    </footer>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous">
+</script>
+<script src="../js/main.js"></script>
+</body>
+</html>

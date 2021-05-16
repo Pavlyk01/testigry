@@ -1,0 +1,183 @@
+.conteiner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-poems {
+  margin-top: 70px;
+}
+
+.main-caetoons {
+  margin-top: 70px;
+  display: flex;
+}
+
+.poems-act {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  position: relative;
+  font-size: 19px;
+  color: #000;
+}
+
+.poems-act {
+  margin: 0 15px;
+}
+
+.poems-act a::before {
+  content: "";
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: rgb(108, 25, 123);
+  transition: 0.5s;
+}
+.poems-act a:hover {
+  color: rgb(37, 8, 43);
+  transition: 0.3s;
+}
+.poems-act a:hover:before {
+  color: rgb(108, 25, 123);
+  width: 100%;
+  left: 0;
+}
+
+.poems-main h2 {
+  font-size: 27px;
+  display: flex;
+  justify-content: center;
+}
+
+.poems-submain h4 {
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+}
+
+.content-poems {
+  display: flex;
+  margin: 35px 0;
+}
+
+.content-poems {
+  display: flex;
+  margin: 35px 0;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content-poems .content-poems-one,
+.content-poems .content-poems-too {
+  max-width: 360px;
+  padding: 0 30px;
+}
+
+.poems-audio {
+  margin: 10px 0 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  padding: 0 7px;
+}
+
+.cartoon-img-logo {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/cat/cartoon/mashamedved-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  border-radius: 40px;
+}
+
+.cartoon-img-logo-vinks {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/cat/cartoon/vinks.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  border-radius: 40px;
+}
+
+.cartoon-img-logo-nu-pogodi {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/cat/cartoon/nu-pogodi.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  border-radius: 40px;
+}
+
+.cartoon-img-logo-smeshariki {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/cat/cartoon/smeshariki.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  border-radius: 40px;
+}
+
+.cartoon-header {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.cartoon-main-logo {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.cartoon-info .cartoon-list {
+  height: 200px;
+  font-size: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.cartoon-info .cartoon-list li span,
+p span {
+  font: 22px;
+  font-weight: 700;
+  color: rgb(108, 25, 123);
+}
+
+.cartoon-content {
+  display: flex;
+  justify-content: center;
+}
+
+.cartoon-subdeskr-header {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.cartoon-subdeskr p {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 15px 30px 15px 30px;
+}
+
+.cartoon-subdeskr {
+  padding-bottom: 30px;
+}

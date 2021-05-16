@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.min.css">
+    <link rel="stylesheet" href="poems.css">
+    <title>Тараканище</title>
+</head>
+<body>
+
+    <div class="header-too" id="header">
+        <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Игры</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link" >Литература</a>
+              </li>
+            </ul>
+          </nav>
+    
+          <div class="logo">
+             <a href="../index.html">
+               <h1 class="h1">
+                 Помощник воспитателя
+               </h1>
+             </a>
+          </div>
+    
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Литература</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Документация</a>
+              </li>
+            </ul>
+          </nav>
+  
+          <div class="adaptive_menu" onclick="addmenu()">
+            <button class="header_btn">
+              <img class="header_btn--btn" src="../images/menu_burger.svg" alt="btn" height="30px">
+            </button>
+          </div>
+  
+          <div id="myDIV" class="rightside-menu rightside-menu--close">
+            <button class="rightside-menu--close" onclick="removemenu()">
+              <img src="../images/X.png" alt="x" height="26px" width="26px">
+            </button>
+            <div class="rightside-menu__content">
+             <ul class="rightside-menu__list">
+  
+              <div class="rightside-menu__list_one">
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Сказки</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Стихи</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Сказки</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Стихи</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Сказки</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Стихи</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              </div>
+  
+  
+  
+             </ul>
+             
+            </div>
+          </div>
+    </div>
+
+<div class="conteiner">
+    <main class="main-poems">
+            <div class="poems-wrapper">
+              <div class="poems-deskr">
+                <div class="poems-main">
+                    <h2>Тараканище</h2>
+                </div>
+                <div class="poems-submain">
+                    <h4 style=" color: #3c3c3cd2;">Сергей Михалков</h4>
+                </div>
+                <div class="poems-audio">
+                  <audio controls id="audio">
+                      <source src="../poems/audio/vot-kakoy-rasseyanyy.mp3" type="audio/mp3" >
+                  </audio> 
+              </div>
+                <div class="poems-act center">
+                    <a href="#" >Скачать</a>
+                </div>
+            </div>
+            <div class="content-poems">
+              <div class="content-poems-one">
+                  <p>Часть первая</p><p>Ехали медведи<br>На&nbsp;велосипеде.</p>
+                  <p>А&nbsp;за&nbsp;ними кот<br>Задом наперёд.</p><p>А&nbsp;за&nbsp;ним комарики<br>На&nbsp;воздушном шарике.</p>
+                  <p>А&nbsp;за&nbsp;ними раки<br>На&nbsp;хромой собаке.</p><p>Волки на&nbsp;кобыле.<br>Львы в&nbsp;автомобиле.</p>
+                  <p>Зайчики<br>В&nbsp;трамвайчике.</p><p>Жаба на&nbsp;метле…</p><p>Едут и&nbsp;смеются,<br>Пряники жуют.</p>
+                  <p>Вдруг из&nbsp;подворотни<br>Страшный великан,<br>Рыжий и&nbsp;усатый<br>Та-ра-кан!<br>Таракан, Таракан, Тараканище!</p>
+                  <p>Он&nbsp;рычит, и&nbsp;кричит,<br>И&nbsp;усами шевелит:<br>«Погодите, не&nbsp;спешите,<br>Я&nbsp;вас мигом проглочу!<br>Проглочу, проглочу, не&nbsp;помилую».</p>
+                  <p>Звери задрожали,<br>В&nbsp;обморок упали.</p><p>Волки от&nbsp;испуга<br>Скушали друг друга.</p><p>Бедный крокодил<br>Жабу проглотил.</p><p>А&nbsp;слониха, вся дрожа,<br>Так и&nbsp;села на&nbsp;ежа.</p>
+                  <p>Только раки-забияки<br>Не&nbsp;боятся бою-драки:<br>Хоть и&nbsp;пятятся назад,<br>Но&nbsp;усами шевелят<br>И&nbsp;кричат великану усатому:</p>
+                  <p>«Не&nbsp;кричи и&nbsp;не&nbsp;рычи,<br>Мы&nbsp;и&nbsp;сами усачи,<br>Можем мы&nbsp;и&nbsp;сами<br>Шевелить усами!»<br>И&nbsp;назад ещё дальше попятились.</p>
+                  <p>И&nbsp;сказал Гиппопотам<br>Крокодилам и&nbsp;китам:</p><p>«Кто злодея не&nbsp;боится<br>И&nbsp;с&nbsp;чудовищем сразится,<br>Я&nbsp;тому богатырю<br>Двух лягушек подарю<br>И&nbsp;еловую шишку пожалую!»<p>
+                  <p>«Не&nbsp;боимся мы&nbsp;его,<br>Великана твоего:<br>Мы&nbsp;зубами,<br>Мы&nbsp;клыками,<br>Мы&nbsp;копытами его!»</p>
+                  <p>И&nbsp;весёлою гурьбой<br>Звери кинулися в&nbsp;бой.</p><p>Но, увидев усача<br>(Ай-ай-ай!),<br>Звери дали стрекача<br>(Ай-ай-ай!).</p>
+                  <p>По&nbsp;лесам, по&nbsp;полям разбежалися:<br>Тараканьих усов испугалися.</p><p>И&nbsp;вскричал Гиппопотам:<br>«Что за&nbsp;стыд, что за&nbsp;срам!<br>Эй, быки и&nbsp;носороги,<br>Выходите из&nbsp;берлоги<br>И&nbsp;врага<br>На&nbsp;рога<br>Поднимите-ка!»</p>
+                  <p>Но&nbsp;быки и&nbsp;носороги<br>Отвечают из&nbsp;берлоги:<br>«Мы&nbsp;врага бы<br>На&nbsp;рога бы.<br>Только шкура дорога,<br>И&nbsp;рога нынче тоже<br>не&nbsp;дёшевы»,</p><p>И&nbsp;сидят и&nbsp;дрожат<br>Под кусточками,<br>За&nbsp;болотными прячутся<br>Кочками.</p>
+                  <p>Крокодилы в&nbsp;крапиву<br>Забилися,<br>И&nbsp;в&nbsp;канаве слоны<br>Схоронилися.</p>
+                  <p>Только и&nbsp;слышно,<br>Как зубы стучат,<br>Только и&nbsp;видно,<br>Как уши дрожат.</p><p>А&nbsp;лихие обезьяны<br>Подхватили чемоданы<br>И&nbsp;скорее со&nbsp;всех ног<br>Наутек.</p>
+                  
+              </div>
+              <div class="content-poems-too">
+                
+                  <p>И&nbsp;акула <br>Увильнула,<br>Только хвостиком махнула.</p><p>А&nbsp;за&nbsp;нею каракатица —<br>Так и&nbsp;пятится,<br>Так и&nbsp;катится.</p><p>Часть вторая</p>
+                  <p>Вот и&nbsp;стал Таракан<br>победителем,<br>И&nbsp;лесов и&nbsp;полей повелителем.<br>Покорилися звери усатому.<br>(Чтоб ему провалиться,<br>проклятому!)<br>А&nbsp;он&nbsp;между ними похаживает,<br>Золоченое брюхо поглаживает:<br>«Принесите-ка мне, звери,<br>ваших детушек,<br>Я&nbsp;сегодня их&nbsp;за&nbsp;ужином<br>скушаю!»</p>
+                  <p>Бедные, бедные звери!<br>Воют, рыдают, ревут!<br>В&nbsp;каждой берлоге<br>И&nbsp;в&nbsp;каждой пещере<br>Злого обжору клянут.</p>
+                  <p>Да&nbsp;и&nbsp;какая&nbsp;же мать<br>Согласится отдать<br>Своего дорогого ребёнка —<br>Медвежонка, волчонка, слоненка, -<br>Чтобы несытое чучело<br>Бедную крошку<br>замучило!</p>
+                  <p>Плачут они, убиваются,<br>С&nbsp;малышами навеки<br>прощаются.</p>
+                  <p>Но&nbsp;однажды поутру<br>Прискакала кенгуру,<br>Увидала усача,<br>Закричала сгоряча:<br>«Разве это великан?<br>(Ха-ха-ха!)<br>Это просто таракан!<br>(Ха-ха-ха!)</p>
+                  <p>Таракан, таракан,<br>таракашечка,<br>Жидконогая<br>козявочка-букашечка.<br>И&nbsp;не&nbsp;стыдно вам?<br>Не&nbsp;обидно вам?<br>Вы&nbsp;— зубастые,<br>Вы&nbsp;— клыкастые,<br>А&nbsp;малявочке<br>Поклонилися,<br>А&nbsp;козявочке<br>Покорилися!»</p>
+                  <p>Испугались бегемоты,<br>Зашептали: «Что ты, что ты!<br>Уходи-ка ты&nbsp;отсюда!<br>Как&nbsp;бы не&nbsp;было нам худа!»</p>
+                  <p>Только вдруг из-за кусточка,<br>Из-за синего лесочка,<br>Из&nbsp;далеких из&nbsp;полей<br>Прилетает Воробей.<br>Прыг да&nbsp;прыг<br>Да&nbsp;чик-чирик,<br>Чики-рики-чик-чирик!</p>
+                  <p>Взял и&nbsp;клюнул Таракана,<br>Вот и&nbsp;нету великана.<br>Поделом великану досталося,<br>И&nbsp;усов от&nbsp;него не&nbsp;осталося.</p>
+                  <p>То-то рада, то-то рада<br>Вся звериная семья,<br>Прославляют, поздравляют<br>Удалого Воробья!</p><p>Ослы ему славу по&nbsp;нотам поют,<br>Козлы бородою дорогу метут,<br>Бараны, бараны<br>Стучат в&nbsp;барабаны!</p>
+                  <p>Сычи-трубачи<br>Трубят! Грачи с&nbsp;каланчи<br>Кричат!<br>Летучие мыши<br>На&nbsp;крыше<br>Платочками машут<br>И&nbsp;пляшут.</p>
+                  <p>А&nbsp;слониха-щеголиха<br>Так отплясывает лихо,<br>Что румяная луна<br>В&nbsp;небе задрожала<br>И&nbsp;на&nbsp;бедного слона<br>Кубарем упала.</p><p>Вот была потом забота —<br>За&nbsp;луной нырять в&nbsp;болото<br>И&nbsp;гвоздями к&nbsp;небесам приколачивать!</p>
+              </div>
+            </div>
+            </div>
+            
+    </main>
+</div>
+
+
+    <footer class="footer">
+
+      <div class="footer-logo">
+        <a href="#header">
+          <h2 class="footer-logo-deskr">
+            Помощник воспитателя
+          </h2>
+        </a>
+      </div>
+  
+      <div class="footer_mail">
+        <form action="">
+          <button type="footer-button">Хотите что-то добавить?</button>
+        </form>
+      </div>
+  
+      <div class="footer-forum">
+  
+        <h3 class="footer-forum-deskr">
+          Хотите поделиться опытом?
+        </h3>
+  
+        <div class="footer-forum-img">
+          <a href="https://vk.me/join/AJQ1d1A/phts/HAaR9FaMFjH">
+            <img src="../images/footer/vk_logo_icon.svg" height="50px" alt="" class="footer-forum-img vk">
+          </a>
+          <a href="https://t.me/joinchat/lQOUkladScwwZGI6">
+            <img src="../images/footer/telegram_logo_icon.svg" height="50px" alt="" class="footer-forum-img tg">
+          </a>
+          <a href="https://chat.whatsapp.com/LZrAFEW7D93IpjEYPukmjF">
+            <img src="../images/footer/whatsapp_logo_icon.svg" height="50px" alt="" class="footer-forum-img w">
+          </a>
+        </div>
+  
+      </div>
+  
+    </footer>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous">
+</script>
+<script src="../js/main.js"></script>
+</body>
+</html>
