@@ -3,6 +3,10 @@
   margin: 0 auto;
 }
 
+.origami-wrapper {
+  margin: 0 auto;
+}
+
 .main-poems {
   margin-top: 70px;
 }
@@ -77,6 +81,7 @@ a {
 .content-poems .content-poems-too {
   max-width: 360px;
   padding: 0 30px;
+  text-align: center;
 }
 
 .poems-audio {
@@ -131,6 +136,34 @@ h2 {
   -webkit-background-size: cover;
   background-size: cover;
   border-radius: 40px;
+}
+
+.cartoon-img-logo-mimimishki {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/cat/cartoon/mimimishki.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  border-radius: 40px;
+}
+
+.cartoon-img-logo-fiksiki {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/cat/cartoon/fiksiki.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  border-radius: 40px;
+}
+
+.instruction img {
+  margin: 0 auto;
+  align-items: center;
+  align-content: center;
 }
 
 .cartoon-header {
