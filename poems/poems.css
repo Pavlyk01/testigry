@@ -3,6 +3,10 @@
   margin: 0 auto;
 }
 
+p {
+  font-size: 18px;
+}
+
 .origami-wrapper {
   margin: 0 auto;
 }
@@ -80,6 +84,7 @@ a {
 .content-poems .content-poems-one,
 .content-poems .content-poems-too {
   max-width: 360px;
+  min-width: 300px;
   padding: 0 30px;
   text-align: center;
 }
@@ -189,7 +194,6 @@ h2 {
 
 .cartoon-info .cartoon-list li span,
 p span {
-  font: 22px;
   font-weight: 700;
   color: rgb(108, 25, 123);
 }
