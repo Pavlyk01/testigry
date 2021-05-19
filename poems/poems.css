@@ -218,3 +218,13 @@ p span {
 .cartoon-subdeskr {
   padding-bottom: 30px;
 }
+
+.otvet {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(88, 16, 111);
+  transition: 1s;
+  border-top: 2px solid rgb(88, 16, 111);
+  padding: 7px 20px;
+  cursor: pointer;
+}
