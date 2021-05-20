@@ -153,23 +153,28 @@ h1 {
 }
 .fs-s,
 #text.fs-s h3 {
-  font-size: 85%;
+  font-size: 100%;
 }
 .fs-n,
 #text.fs-n h3 {
-  font-size: 100%;
+  font-size: 125%;
 }
 .fs-l,
 #text.fs-l h3 {
-  font-size: 115%;
+  font-size: 150%;
 }
 .fs-xl,
 #text.fs-xl h3 {
-  font-size: 130%;
+  font-size: 165%;
 }
 .fs-xxl,
 #text.fs-xxl h3 {
-  font-size: 150%;
+  font-size: 185%;
+}
+
+.fs-xxx,
+#text.fs-xxx h3 {
+  font-size: 200%;
 }
 .disabled {
   color: #ccc;
