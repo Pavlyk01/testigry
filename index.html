@@ -20,7 +20,7 @@
         <nav class="menu">
           <ul class="menu__list">
             <li class="menu__list-item">
-              <a href="#" class="menu__list-link">Подделки</a>
+              <a href="#" class="menu__list-link">Игры</a>
             </li>
             <li class="menu__list-item">
               <a href="header-page/literature/literature.html" class="menu__list-link" >Литература</a>
@@ -39,7 +39,7 @@
         <nav class="menu">
           <ul class="menu__list">
             <li class="menu__list-item">
-              <a href="header-page/literature/literature.html" class="menu__list-link">Литература</a>
+              <a href="header-page/literature/literature.html" class="menu__list-link">Рукоделие</a>
             </li>
             <li class="menu__list-item">
               <a href="#" class="menu__list-link">Документация</a>
@@ -61,20 +61,22 @@
            <ul class="rightside-menu__list">
 
             <div class="rightside-menu__list_one">
-            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Сказки</a></li>
-            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Стихи</a></li>
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">О Нас</a></li>
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Документация</a></li>
             <li class="rightside-menu__list__item"><a href="header-page/literature/literature.html" class="rightside-menu__list-link">Литература</a></li>
-            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Рукоделие</a></li>
             <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
             <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+
             <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
-            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
-            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
-            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Оригами</a></li>
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Загадки</a></li>
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Пластелин</a></li>
             <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Сказки</a></li>
             <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Стихи</a></li>
-            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
-            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Мультики</a></li>
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Басни</a></li>
             <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
             <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
             <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
@@ -124,6 +126,7 @@
             <div> <li class="button zagadki-i" data-filter="zagadki" tabindex="-3">Загадки</li></div>
             <div> <li class="button scenario-i" data-filter="scenario" tabindex="-5">Сценарии</li></div>
             <div> <li class="button development-i" data-filter="development" tabindex="-5">Карточки</li></div>
+            <div> <li class="button board-games-i" data-filter="board-games" tabindex="-3">Настольные</li></div>
             <div> <li class="button music-i" data-filter="music" tabindex="-3">Песни</li></div>
             <div> <li class="button plasticine-i" data-filter="plasticine" tabindex="-3">Пластелин</li></div>
             <div> <li class="button cartoons-i" data-filter="cartoons" tabindex="-3">Мультики</li></div>
@@ -912,6 +915,7 @@
   </footer>
 
   </div>
+  
 
 
   <script src="js/main.min.js"></script>
@@ -923,10 +927,22 @@
   <script src="js/owl.carousel.min.js"></script>
   <script>
     $(document).ready(function(){
-  $(".owl-carousel").owlCarousel({
-    items: 3,
-    margin:30
-  });
+      var mql = window.matchMedia('all and (max-width: 570px)');
+    if (mql.matches) {
+      $(".owl-carousel").owlCarousel({
+        items: 3,
+        autoWidth: false,
+        margin: 5
+      });
+    } else {
+      $(".owl-carousel").owlCarousel({
+        items: 4,
+        autoWidth: false,
+        margin:10
+      });
+
+    }
+  
 });
 
 
