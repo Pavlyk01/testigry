@@ -157,19 +157,19 @@ h1 {
 }
 .fs-n,
 #text.fs-n h3 {
-  font-size: 125%;
+  font-size: 150%;
 }
 .fs-l,
 #text.fs-l h3 {
-  font-size: 150%;
+  font-size: 200%;
 }
 .fs-xl,
 #text.fs-xl h3 {
-  font-size: 165%;
+  font-size: 250%;
 }
 .fs-xxl,
 #text.fs-xxl h3 {
-  font-size: 185%;
+  font-size: 300%;
 }
 
 .fs-xxx,
