@@ -342,37 +342,37 @@ h1 {
 }
 @media (min-height: 300px) {
   #text {
-    height: 150px;
+    height: 250px;
   }
 }
 @media (min-height: 400px) {
   #text {
-    height: 200px;
+    height: 300px;
   }
 }
 @media (min-height: 500px) {
   #text {
-    height: 250px;
+    height: 350px;
   }
 }
 @media (min-height: 600px) {
   #text {
-    height: 300px;
+    height: 400px;
   }
 }
 @media (min-height: 700px) {
   #text {
-    height: 350px;
+    height: 450px;
   }
 }
 @media (min-height: 800px) {
   #text {
-    height: 400px;
+    height: 500px;
   }
 }
 @media (min-height: 900px) {
   #text {
-    height: 450px;
+    height: 550px;
   }
   .font-size .icon {
     font-size: 50px;
@@ -380,12 +380,12 @@ h1 {
 }
 @media (min-height: 1000px) {
   #text {
-    height: 900px;
+    height: 600px;
   }
 }
 @media (min-height: 1200px) {
   #text {
-    height: 900px;
+    height: 1150px;
   }
 }
 .reader-header {
@@ -411,7 +411,7 @@ h1 {
 }
 @media (min-width: 1280px) {
   .reader {
-    max-width: 808px;
+    max-width: 100%;
   }
   #text {
     padding-left: 44px;
@@ -467,34 +467,47 @@ footer {
   border-bottom: 2px solid rgb(109, 4, 115);
 }
 
+#flip,
+#flip2 {
+  height: 25%;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  border: solid 2px rgb(209, 133, 213);
+  border-radius: 20px 20px 0 0;
+}
+
 #panel,
 #flip,
 #panel2,
 #flip2 {
-  padding: 5px;
+  padding: 25px;
   text-align: center;
   background-color: #ffffff;
-  border: solid 1px rgb(109, 4, 115);
+  display: flex;
 }
 
 #panel,
 #panel2 {
-  padding: 25px;
+  padding: 35px;
   display: none;
   margin: 0;
+  border: solid 2px rgb(209, 133, 213);
 }
 
 .content_view {
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  height: 20%;
+  margin-bottom: 150px;
 }
 
 .content_view .download,
 .content_view .musick-fairy-tales {
-  width: 390px;
+  width: 50wh;
+  color: rgb(109, 4, 115);
 }
 
 @media only screen and (max-width: 800px) {
@@ -510,4 +523,17 @@ footer {
 
 body {
   background: #fff;
+}
+footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 500px) {
+  footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
 }

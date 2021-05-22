@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.min.css">
+    <link rel="stylesheet" href="../poems/poems.css">
+    <title>Дубль</title>
+</head>
+<body>
+
+    <div class="header-too" id="header">
+        <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Игры</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link" >Литература</a>
+              </li>
+            </ul>
+          </nav>
+    
+          <div class="logo">
+             <a href="../index.html">
+               <h1 class="h1">
+                 Помощник воспитателя
+               </h1>
+             </a>
+          </div>
+    
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Литература</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Документация</a>
+              </li>
+            </ul>
+          </nav>
+  
+          <div class="adaptive_menu" onclick="addmenu()">
+            <button class="header_btn">
+              <img class="header_btn--btn" src="../images/menu_burger.svg" alt="btn" height="30px">
+            </button>
+          </div>
+  
+          <div id="myDIV" class="rightside-menu rightside-menu--close">
+            <button class="rightside-menu--close" onclick="removemenu()">
+              <img src="../images/X.png" alt="x" height="26px" width="26px">
+            </button>
+            <div class="rightside-menu__content">
+             <ul class="rightside-menu__list">
+  
+              <div class="rightside-menu__list_one">
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Сказки</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Стихи</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Сказки</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Стихи</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Сказки</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Стихи</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+              <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+              </div>
+  
+  
+  
+             </ul>
+             
+            </div>
+          </div>
+    </div>
+
+<div class="conteiner">
+    <main class="main-caetoons">
+          <div class="origami-wrapper">
+                <div class="cartoon-main-logo">
+                    <h2>Настольная игра для детей: Доббль</h2>
+                </div>
+                <div class="cartoon-deskr">
+                  <p style="max-width: 900px; font-size: 17px; padding: 0 15px;">«Доббль» — это серия мини-игр на быстроту реакции, в которых все участники играют одновременно. Вы можете играть в одну и ту же мини-игру снова и снова или чередовать их. Важно лишь то, что вы получаете удовольствие</p>
+                </div>
+                <div class="cartoon-main-logo">
+                  <h4 style="display: flex; justify-content: start; margin-top: 30px;">Цель игры: Доббль</h4>
+                </div>
+              <div class="cartoon-deskr">
+                <p style="max-width: 900px; font-size: 17px; padding: 0 15px;">В любой мини-игре вам всегда нужно быть самым быстрым, чтобы раньше других найти изображение, совпадающее на двух карточках, громко его объявить, затем взять карточку себе, отдать другому или сбросить (в зависимости от правил каждой мини-игры).</p>
+              </div>
+              <div class="cartoon-main-logo">
+                <h4 style="display: flex; justify-content: start; margin-top: 30px;">мини-игры: Доббль</h4>
+              </div>
+            <div class="cartoon-deskr">
+              <p style="max-width: 900px; font-size: 17px; padding: 0 15px;">«Доббль» — это серия мини-игр на быстроту реакции, в которых все участники играют одновременно. Вы можете играть в мини-игры в определенном порядке, произвольно, или можете играть в одну и ту же мини-игру снова и снова. Важно лишь то, что вы получаете удовольствие!</p>
+              <p style="max-width: 900px; font-size: 17px; padding: 0 15px;">Перед началом прочтите правила выбранной мини-игры всем игрокам. Не забудьте провести пробный раунд, чтобы каждый игрок понял правила.</p>
+            </div>
+            <div class="cartoon-main-logo">
+              <h4 style="display: flex; justify-content: start; margin-top: 30px;">Правила Доббль: конец игры</h4>
+            </div>
+          <div class="cartoon-deskr">
+            <p style="max-width: 900px; font-size: 17px; padding: 0 15px;">В Доббль побеждает тот, кто выиграл больше всего мини-игр.</p>
+            <p style="max-width: 900px; font-size: 17px; padding: 0 15px;">Выигрывает тот, кто первым назвал совпадение! Если игроки объявили о совпадении одновременно, выигрывает тот, кто первым взял карточку себе, отдал ее другому или сбросил.</p>
+            <p style="max-width: 900px; font-size: 17px; padding: 0 15px;">В конце мини-игры игроки, набравшие одинаковое количество карточек, играют друг против друга (или проводят один раунд «Горячей картошки», если игроков больше, чем двое).</p>
+            <p style="max-width: 900px; font-size: 17px; padding: 0 15px;">Каждый берет карточку и переворачивает ее одновременно с противником. Первый, кто обнаружит совпадающее изображение и объявит его, выигрывает дуэль.</p>
+          </div>
+          <p style="max-width: 900px; font-size: 17px; padding: 0 15px;">Скачать карточки можно тут в нескольких вариантах: 
+            <br>
+            <ul style="list-style:decimal;">
+              <li>
+                <a style="color: rgb(144, 95, 172); font-size: 26px;" href="../images/cat/nastolki/dubl-valentines-day.pdf" target="_blank">"День святого валентина"</a>
+            <br>
+              </li>
+              <li>
+                <a style="color: rgb(144, 95, 172); font-size: 26px;" href="../images/cat/nastolki/dubl-odeshda.pdf" target="_blank">"Занятия и одежда"</a>
+            <br>
+              </li>
+              <li>
+                <a style="color: rgb(144, 95, 172); font-size: 26px;" href="../images/cat/nastolki/dubl-noviy-god.pdf" target="_blank">"Новый Год"</a>
+            <br>
+              </li>
+              <li>
+                <a style="color: rgb(144, 95, 172); font-size: 26px;" href="../images/cat/nastolki/dubl-disnej.pdf" target="_blank">"Персонажи Disney"</a>
+              </li>
+            </ul>
+            
+            
+            
+            
+          </p>
+          </div>
+    </main>
+</div>
+
+
+    <footer class="footer">
+
+      <div class="footer-logo">
+        <a href="#header">
+          <h2 class="footer-logo-deskr">
+            Помощник воспитателя
+          </h2>
+        </a>
+      </div>
+  
+      <div class="footer_mail">
+        <form action="">
+          <button type="footer-button">Хотите что-то добавить?</button>
+        </form>
+      </div>
+  
+      <div class="footer-forum">
+  
+        <h3 class="footer-forum-deskr">
+          Хотите поделиться опытом?
+        </h3>
+  
+        <div class="footer-forum-img">
+          <a href="https://vk.me/join/AJQ1d1A/phts/HAaR9FaMFjH">
+            <img src="../images/footer/vk_logo_icon.svg" height="50px" alt="" class="footer-forum-img vk">
+          </a>
+          <a href="https://t.me/joinchat/lQOUkladScwwZGI6">
+            <img src="../images/footer/telegram_logo_icon.svg" height="50px" alt="" class="footer-forum-img tg">
+          </a>
+          <a href="https://chat.whatsapp.com/LZrAFEW7D93IpjEYPukmjF">
+            <img src="../images/footer/whatsapp_logo_icon.svg" height="50px" alt="" class="footer-forum-img w">
+          </a>
+        </div>
+  
+      </div>
+  
+    </footer>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous">
+</script>
+<script src="../js/main.js"></script>
+</body>
+</html>
