@@ -903,7 +903,7 @@
   </main>
   
 
-  <footer class="footer">
+  <footer class="footer" id="footer">
 
     <div class="footer-logo">
       <a href="#header">
@@ -914,9 +914,7 @@
     </div>
 
     <div class="footer_mail">
-      <form action="">
-        <button type="footer-button">Хотите что-то добавить?</button>
-      </form>
+        <a class="footer__popup_link" href="#popup">Хотите что-то добавить?</a>
     </div>
 
     <div class="footer-forum">
@@ -924,6 +922,32 @@
       <h3 class="footer-forum-deskr">
         Хотите поделиться опытом?
       </h3>
+
+      <div class="popup" id="popup">
+        <a href="#footer" class="popup__area"></a>
+        <div class="popup__body">
+          <div class="popup__content">
+            <a href="#footer" class="popup__close">X</a>
+            <div class="popup__title">Напишите что хотели бы нам предложить..</div>
+            <form class="footer__form">
+              <!-- Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="Помощник воспитателя">
+                <input type="hidden" name="admin_email" value="pawlyuck.asd@gmail.com">
+                <input type="hidden" name="form_subject" value="footer__form">
+              <!-- END Hidden Required Fields -->
+
+              <input class="footer__text" type="text" name="Имя" value="ФИО " placeholder="You name..." onfocus="this.value ='';" onblur="if (this.value =='') {this.value ='Name';}">
+              <br>
+              <input class="footer__text" type="text" name="E-mail" value="E-mail " placeholder="You E-mail..." onfocus="this.value ='';" onblur="if (this.value =='') {this.value ='E-mail';}">
+              <br>
+              <textarea class="footer__textarea" name="Сообщение" value="Message " onfocus="this.value ='';" onblur="if (this.value =='') {this.value ='Message';}"></textarea>
+              <br>
+		          <button class="footer__btn">Отправить</button>
+
+            </form>
+          </div>
+        </div>
+      </div>
 
       <div class="footer-forum-img">
         <a href="https://vk.me/join/AJQ1d1A/phts/HAaR9FaMFjH">
@@ -943,6 +967,7 @@
 
   </div>
   
+ 
 
 
   <script src="js/main.min.js"></script>
@@ -974,5 +999,6 @@
 
   </script>
 </body>
+
 
 </html>

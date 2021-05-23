@@ -56,10 +56,39 @@ $(document).ready(function(){
 
 
 var $page = $('html, body');
-$('a[href*="#"]').click(function() {
+$('a[href*="#header"]').click(function() {
     $page.animate({
         scrollTop: $($.attr(this, 'href')).offset().top
-    }, 400);
+    }, 1200);
     return false;
 });
 
+var $page = $('html, body');
+$('a[href*="#wrapper-filter" ]').click(function() {
+    $page.animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 1300);
+    return false;
+});
+
+
+$(document).ready(function() {
+
+	//E-mail Ajax Send
+	$("form").submit(function() { //Change
+		var th = $(this);
+		$.ajax({
+			type: "POST",
+			url: "form/mail.php", //Change
+			data: th.serialize()
+		}).done(function() {
+			alert("Thank you!");
+			setTimeout(function() {
+				// Done Functions
+				th.trigger("reset");
+			}, 1000);
+		});
+		return false;
+	});
+
+});
