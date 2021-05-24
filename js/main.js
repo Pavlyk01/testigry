@@ -67,7 +67,7 @@ var $page = $('html, body');
 $('a[href*="#wrapper-filter" ]').click(function() {
     $page.animate({
         scrollTop: $($.attr(this, 'href')).offset().top
-    }, 1300);
+    }, 900);
     return false;
 });
 
