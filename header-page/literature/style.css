@@ -1015,7 +1015,7 @@ textarea {
 .header .logo .h1 {
   font-size: 48px;
   font-family: mr_HangingLettersG, "open sans";
-  color: transparent;
+  color: #7753b9;
   -webkit-background-clip: text;
   background-clip: text;
   background-image: url("../../../images/bg_logo.jfif");
