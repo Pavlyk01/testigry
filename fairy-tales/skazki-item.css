@@ -681,18 +681,3 @@ textarea {
   justify-content: space-around;
   background-image: none;
 }
-
-.header .logo .h1 {
-  font-size: 48px;
-  transition: all 0.5s;
-  font-family: mr_HangingLettersG, "open sans";
-}
-
-header .logo .h1:hover {
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-  -webkit-transform: scale(1.07);
-  -ms-transform: scale(1.07);
-  transform: scale(1.07);
-}
