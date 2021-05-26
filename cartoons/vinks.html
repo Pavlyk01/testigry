@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/style.min.css">
     <link rel="stylesheet" href="../poems/poems.css">
     <title>Винкс</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -124,7 +125,7 @@
                         <p>Фантастическое учебное заведение Алфея находится в сказочном мире Магикс. Здесь феи получают магические знания и навыки. Главные героини – пятерка юных девушек. Они учатся, встречаются после уроков в кафе, влюбляются, но при этом еще и успевают постоянно спасать планету от бед и зла. И нрав у этих фей разный. Техна – поистине богиня электроники, Флора – скромная тихоня, обожающая растения, Стела – светловолосая наследница планеты под названием Солярия, Муза – поклонница абсолютно любой музыки, а Блум – настоящий лидер, которого признают в этом качестве все остальные девушки. Феям помогают в нелегкой борьбе со злом крошечные подружки – пикси. Девиз Клуба Винкс – взаимовыручка и дружба навсегда. Наслаждаться жизнью девушкам не дают козни троицы ведьм из противостоящего им Клуба Трикс. Злобные Строми, Дарси и Айси приносят массу проблем. Но Клуб Винкс смело противостоит им, ведь у них есть оружие, которое лучше любого волшебства: взаимопомощь и верная дружба.</p>
                     </div>
                 </div>
-                <div class="cartoon-content">
+                <div data-aos="fade-up" class="cartoon-content">
                     <iframe style="max-width: 660px; height: 415px; width: 100%;" src="https://www.youtube.com/embed/videoseries?list=PLIevddmaPFlM-rtzOyTb6rGzFUMkGctev" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="cartoon-subdeskr">
@@ -132,7 +133,7 @@
                         <h2>Почему мультфильм о Винкс так полюбился зрителям?</h2>
                     </div>
                     <p>Кто самый красивый, модный и дружный? Конечно, Винкс! Девчонки не могут устоять перед этим великолепным мультфильмом. Эти шесть юных фей из Школы волшебниц: Блум, Стелла, Текна, Муза, Флора и Лейла завоевали сердца миллионов поклонниц по всей земле. И это неудивительно, ведь авторы итальянского мультсериала вложили в него много усилий, к его созданию привлекались лучшие художники и музыканты, интерьеры придумывали дизайнеры и архитекторы. А виртуальные наряды для волшебниц-модниц возникли благодаря помощи настоящих модельеров, в том числе из Дольче&amp;Габанна.</p>
-                    <div class="cartoon-subdeskr-header">
+                    <div  class="cartoon-subdeskr-header">
                         <h2>Смотреть ли мультфильм Винкс</h2>
                     </div>
                     <p>Самое главное, что привлекает к просмотру мультфильма Клуба Винкс – это крепкая дружба юных фей, их стремление к самосовершенствованию, семейные ценности. Не смотря на внешний блеск и неотразимость, феи остаются очень сердечными, и готовы жертвовать своим здоровьем и жизнью ради любого слабого и обиженного существа. Они бросаются на борьбу с силами зла, когда это требуется для сохранения мира и любви во всей сказочной вселенной.</p>
@@ -209,5 +210,30 @@
   crossorigin="anonymous">
 </script>
 <script src="../js/main.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+// Global settings:
+disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+initClassName: 'aos-init', // class applied after initialization
+animatedClassName: 'aos-animate', // class applied on animation
+useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+// Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+offset: 100, // offset (in px) from the original trigger point
+delay: 0, // values from 0 to 3000, with step 50ms
+duration: 1500, // values from 0 to 3000, with step 50ms
+easing: 'ease', // default easing for AOS animations
+once: false, // whether animation should happen only once - while scrolling down
+mirror: false, // whether elements should animate out while scrolling past them
+anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+</script>
 </body>
 </html>
