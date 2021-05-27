@@ -183,6 +183,13 @@ h2 {
   justify-content: center;
 }
 
+.cartoon-main-logo-h2 {
+  color: purple;
+  padding: 7px;
+  border: 3px solid purple;
+  border-radius: 20px;
+}
+
 .cartoon-info .cartoon-list {
   height: 200px;
   font-size: 20px;
@@ -207,6 +214,17 @@ p span {
   padding-top: 30px;
   display: flex;
   justify-content: center;
+}
+
+.element-animation {
+  opacity: 0;
+  transform: translateX(-50%) scale(0.2);
+}
+
+.element-animation.element-show {
+  opacity: 1;
+  transition: all 1.5s;
+  transform: translateX(0px) scale(1);
 }
 
 .cartoon-subdeskr p {
